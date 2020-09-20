@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+    <Button
+        android:id="@+id/chooseStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/start_date" />
+    <Button
+        android:id="@+id/chooseEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/end_date" />
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:text="@string/ok" />
+
+    <CalendarView
+        android:id="@+id/startDateCalendar"
+        android:layout_width="390dp"
+        android:layout_height="290dp"
+        android:layout_margin="5dp"
+        android:scrollY="10dp" />
+
+    <CalendarView
+        android:id="@+id/endDateCalendar"
+        android:layout_width="390dp"
+        android:layout_height="290dp"
+        android:layout_margin="5dp"
+        android:background="#E2E2E2"
+        android:scrollY="10dp" />
+
+</LinearLayout>
