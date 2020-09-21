@@ -3,7 +3,7 @@
     <string name="start_date">Дата-время старта задачи: </string>
     <string name="end_date">Дата-время окончания задачи: </string>
     <string name="ok">OK</string>
-    <string name="error_end_data">Ошибка</string>
+    <string name="error_end_data">Ошибка! Дата окончания задачи не может быть раньше даты начала</string>
     <string name="start">\"старт: \"</string>
     <string name="end">\" окончаниe: \"</string>
 </resources>
